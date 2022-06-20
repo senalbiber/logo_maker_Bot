@@ -27,7 +27,7 @@ async def on_off_antiarab(_, message: Message):
     await m.edit("**♻ Creating your Logo ♻**......\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
     await m.edit("📤Uploading....")
     await m.edit("📤Uploading.....")
-    BOT_USERNAME = _.Happynewlogo_bot
+    BOT_USERNAME = _.username
     f= message.text
     s=f.replace('/logo ' ,'')
     text=s.replace(' ', '%20')
@@ -39,7 +39,7 @@ async def on_off_antiarab(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **@{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[🧩 Logo bot 🧩](http://t.me/Happynewlogo_bot)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™](https://t.me/TeamOutruix)**
 ◇───────────────◇️  
 """
     await _.send_chat_action(message.chat.id, enums.ChatAction.UPLOAD_DOCUMENT)
@@ -54,4 +54,3 @@ async def on_off_antiarab(_, message: Message):
                 ]
             ]
           ),
-    )
