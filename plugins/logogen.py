@@ -27,7 +27,7 @@ async def on_off_antiarab(_, message: Message):
     await m.edit("**♻ Creating your Logo ♻**......\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
     await m.edit("📤Uploading....")
     await m.edit("📤Uploading.....")
-    BOT_USERNAME = _.username
+    BOT_USERNAME = _.Happynewlogo_bot
     f= message.text
     s=f.replace('/logo ' ,'')
     text=s.replace(' ', '%20')
