@@ -15,13 +15,13 @@
 
 ## Deploy your Logo Maker Bot (Deploy Heroku)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gbimsath/Logo-Maker-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/senalbiber/logo_maker_Bot)
 
 
 <br>
   
    
- [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat) [![Dev Channel](https://img.shields.io/badge/TeamOutruix-Dev-green?style=flat&logo=telegram)](https://t.me/OutruixDevs)
+ [![Support Channel] [![Dev Channel](https://telegra.ph/file/5f0b444fa872f25c69a9d.jpg?style=flat&logo=telegram)](https://t.me/happyisapartofmylife)
 
 
 ## License
