@@ -21,7 +21,7 @@
 <br>
   
    
- [![Support Channel] [![Dev Channel](https://telegra.ph/file/5f0b444fa872f25c69a9d.jpg?style=flat&logo=telegram)](https://t.me/happyisapartofmylife)
+  [![Dev Channel](https://telegra.ph/file/5f0b444fa872f25c69a9d.jpg?style=flat&logo=telegram)](https://t.me/happyisapartofmylife)
 
 
 ## License
