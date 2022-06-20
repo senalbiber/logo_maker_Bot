@@ -38,7 +38,7 @@ async def help_me(bot, message):
         if LOG_CHANNEL:
             await bot.send_message(
                 LOG_CHANNEL,
-                f"#NEWUSER: \n\n**User:** [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n**ID:**{message.from_user.id}\n Started @{bot.username} !!",
+                f"#NEWUSER: \n\n**User:** [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n**ID:**{message.from_user.id}\n Started @{Happynewlogo_bot} !!",
             )
         else:
             logging.info(f"#NewUser :- Name : {message.from_user.first_name} ID : {message.from_user.id}")
