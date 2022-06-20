@@ -20,7 +20,7 @@ HELP = """
 **To Make Logo -** `/logo Your Name`
 **To Make Square Logo - ** `/logosq Your Name`
 **♻️ Example:** 
-`/logo Pakeya`
+`/logo HAPPY`
 """
 HELP_BTN = InlineKeyboardMarkup([[
                  InlineKeyboardButton("𝕮𝖑𝖔𝖒𝖘𝖊", callback_data="cloce")
