@@ -34,13 +34,6 @@ This Bot licensed under [GNU Affero General Public License](https://www.gnu.org/
 - [Gishankrishka](https://github.com/Gishankrishka2)
 - [Malitha Mihiranga](https://github.com/xMalitha)
  
- ## Contributions
-#### Contributions are welcome.
-
-![Contributors](https://contrib.rocks/image?repo=gbimsath/Logo-Maker-Bot)
-
-TeamOutruix
-                 <br>  <h2>  • OD • 
                            
                     
   
