@@ -29,7 +29,6 @@ from pyrogram.types import (
 import database
 
 db=database.db.db
-BOT_USERNAME=bot.username
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def help_me(bot, message):
@@ -49,7 +48,7 @@ async def help_me(bot, message):
                  InlineKeyboardButton('• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™', url=f"https://t.me/TeamOutruix")
                  ],
                  [
-                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{_.username}?startgroup=true")
+                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{bot.username}?startgroup=true")
                  ]]
                   )
     await message.reply_text(
