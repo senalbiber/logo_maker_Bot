@@ -31,6 +31,7 @@ This Bot licensed under [GNU Affero General Public License](https://www.gnu.org/
 
 ## Special Thanks
 - [Gavesh Bimsath](https://github.com/gbimsath)
+- [Eɴᴜᴋᴀ Pᴀᴛʜɪʀᴀɴᴀɢᴇ](https://github.com/Enukx)
 
  
                            
