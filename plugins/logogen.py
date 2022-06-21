@@ -54,3 +54,4 @@ async def on_off_antiarab(_, message: Message):
                 ]
             ]
           ),
+    )
