@@ -17,7 +17,7 @@ from asyncio import *
 import time
 
 @Client.on_message(filters.command("logo"))
-async def on_off_antiarab(_, message: Message):
+async def on_off_antiarab(bot, message: Message):
     m = await message.reply_text("**♻ Creating your Logo ♻**......\n\n[░░░░░░░░░░] 00%")
     await m.edit("**♻ Creating your Logo ♻**......\n\n[▇▇░░░░░░░░] 20%")
     await m.edit("**♻ Creating your Logo ♻**......\n\n[▇▇▇▇░░░░░░] 40%")
@@ -27,7 +27,8 @@ async def on_off_antiarab(_, message: Message):
     await m.edit("**♻ Creating your Logo ♻**......\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
     await m.edit("📤Uploading....")
     await m.edit("📤Uploading.....")
-    BOT_USERNAME = _.username
+    data = await bot.get_me()
+    BOT_USERNAME = data.username
     f= message.text
     s=f.replace('/logo ' ,'')
     text=s.replace(' ', '%20')
