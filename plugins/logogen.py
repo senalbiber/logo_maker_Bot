@@ -40,7 +40,7 @@ async def on_off_antiarab(bot, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **@{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™](https://t.me/TeamOutruix)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[🧩 Logo bot 🧩](https://t.me/Happynewlogo_bot)**
 ◇───────────────◇️  
 """
     await bot.send_chat_action(message.chat.id, enums.ChatAction.UPLOAD_DOCUMENT)
