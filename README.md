@@ -30,10 +30,8 @@
 This Bot licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
 
 ## Special Thanks
-
-- [Gishankrishka](https://github.com/Gishankrishka2)
 - [Gavesh Bimsath](https://github.com/gbimsath)
-- [Malitha Mihiranga](https://github.com/xMalitha)
+
  
                            
                     
