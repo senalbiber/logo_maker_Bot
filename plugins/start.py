@@ -47,10 +47,10 @@ async def help_me(bot, message):
     file_id = S_STICKER
     await bot.send_sticker(message.chat.id, file_id)
     S_BUTTON = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™', url=f"https://t.me/TeamOutruix")
+                 InlineKeyboardButton('♻️ Updates ♻️', url=f"https://t.me/Itzabothmyprofile")
                  ],
                  [
-                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ your ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                  ]]
                   )
     await message.reply_text(
