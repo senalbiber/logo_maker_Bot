@@ -6,7 +6,6 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/license/senalbiber/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/repo-size/senalbiber/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/github/issues/senalbiber/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Issues">
     <img src="https://img.shields.io/github/forks/senalbiber/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Forks">
     <img src="https://img.shields.io/github/stars/senalbiber/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Stars">
