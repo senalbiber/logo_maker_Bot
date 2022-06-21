@@ -42,13 +42,15 @@ async def help_me(bot, message):
             )
         else:
             logging.info(f"#NewUser :- Name : {message.from_user.first_name} ID : {message.from_user.id}")
+    data = await bot.get_me()
+    BOT_USERNAME = data.username
     file_id = S_STICKER
     await bot.send_sticker(message.chat.id, file_id)
     S_BUTTON = InlineKeyboardMarkup([[              
                  InlineKeyboardButton('• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™', url=f"https://t.me/TeamOutruix")
                  ],
                  [
-                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{bot.username}?startgroup=true")
+                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                  ]]
                   )
     await message.reply_text(
